@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mirador": "^2.6.0",
+    "universalviewer": "^3.0.16"
+  }
+}
