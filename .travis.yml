@@ -1,0 +1,11 @@
+language: minimal
+deploy:
+  provider: s3
+  access_key_id: AKIAIV3QIHK5UQJXBTJA
+  secret_access_key:
+    secure: NK2KgyFuguSnJqeFWBZonA/0zevBrMay/R/9D43+yB3jJT97ak4SL9qwXw+x7LjZpQDLTxRYrr+Bf8aESZJ1CwAt9DElgwi6d0vjR5ZbbaX2bQ9GUZo4dJwrtPERdZsel1KEfgGZtAEjdNV3rP2cDeBEvdZaewlHLvqcKb/+vxY2OPOZaHhn2oouM0igkIc8XzKL9HqlrF6MopWauBVtPjd1UiEeWnC5dWewXM22y/XzX6Vxtz2WhKo5imYHFKSofWIKu2k+TIK1za8HRYLRDkLB3QVZg7/MGZDQKuUoWK2pgisoOrci0QI6VuczIllN6HO6ubGfaFXHaPYanp5dkbcw3khrlqm/P24lmjg/RMeF5IqXgA/BnH0R5egu+Mvysu5QGGB4Rzu9s+earLFx/3yoTzej9r0CY3NY0qJz38Kjcm4Amr6kXHLkAR7uog9yZVl0AdAHpWE00sP0Qwbh4UtD3FimkNwZrwtJ5beQ1sVTc8lIRjtd6/wN37s8U4sL81fNdg+CpR7MKnGneD6bv/QzfL61Xu4ehFY1CKu9L1tGRlwmj3On4ZArJFgJVeNcfzVMXUcey1KRxX99Ti+6gwtlLKSY+hdtzXo7upgRQk/D3CgiJfBt5tIdg2cZBALPFDMJUySM02OmpNGLcRCrVJct7f+Gp6gPbBh2+YYRuuw=
+  bucket: iiif-viewers
+  acl: public_read
+branches:
+  only:
+    - master
