@@ -9,6 +9,7 @@ deploy:
   skip_cleanup: true
   on:
     repo: UCLALibrary/iiif-sandbox-simple
+  region: us-west-2
 branches:
   only:
   - master
