@@ -8,6 +8,7 @@ deploy:
   bucket: iiif-viewers
   acl: public_read
   skip_cleanup: true
+  region: us-west-2
 branches:
   only:
   - master
