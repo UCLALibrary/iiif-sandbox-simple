@@ -9,7 +9,7 @@ The code and basic implementation for this site was shamelessly borrowed from
 This is easiest to do if you have [Yarn](https://yarnpkg.com/en/) installed.
 
 > WARNING: the version of Yarn provided by most package managment systems will probably be very out of date. You'll want to install the version provided by yarn directly. Here are [instructions for installing Yarn on Ubuntu Bionic (18.4)](https://by-example.org/install-yarn-on-ubuntu-18-04-bionic-beaver-lts/). There are [instructions for installing Yarn on most operating systems](https://yarnpkg.com/en/docs/install) as well.
-> You may also encounter error messages about the version of Node you have installed. Currently Mirador and Universal Viewer have a dependency (paper) which requires you to be using Node version 7+, the easiest way to ensure you're using version 7 of Node is to use nvm (node version manager) with this command `nvm use 7`
+> You may also encounter error messages about the version of Node you have installed. Currently Mirador and Universal Viewer have a dependency (paper) which requires you to be using Node version 7+, the easiest way to ensure you're using version 7 of Node is to use nvm (node version manager) with this command `nvm use 7`. If you don't already have nvm installed, you can find [installation instructions](https://github.com/nvm-sh/nvm) on its website.
 
 
 ```
