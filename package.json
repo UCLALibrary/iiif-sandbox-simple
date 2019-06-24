@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "mirador": "2.7.2",
+    "mirador": "^2.7.2",
     "universalviewer": "^3.0.16"
   }
 }
